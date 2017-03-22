@@ -1,17 +1,13 @@
-a:focus, a:hover {
-	text-decoration: none;
-}
-
 hr {
 	height: 3px;
-    background-color:#d3d3d3;
+    background-color: #CCC;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .container-fluid {
 	max-width: 960px;
-	padding-top: 0px;
+	padding-top: 0;
 }
 
 .img-responsive {
@@ -49,7 +45,7 @@ hr {
 
 .tagline, .name {
 	text-align:right;
-	color: #66686d;
+	color: #666;
 	text-transform: uppercase;
 }
 
@@ -74,7 +70,7 @@ hr {
 }
 
 .portfolio-text {
-	color: #bcbbbb;
+	color: #BBB;
 	font-size: 32px;
 	padding-bottom: 10px;
 	padding-left: 10px;
@@ -85,11 +81,11 @@ hr {
 	font-size: 26px;
 	padding-top: 5px;
 	text-transform: uppercase;
-	color: #66686d;
+	color: #666;
 }
 
 .portfolio-name a:link, a  {
-	color: #66686d;
+	color: #666;
 }
 
 .portfolio-name {
@@ -97,10 +93,10 @@ hr {
 }
 
 .portfolio-img:hover {
-	-webkit-box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.4);
-    -moz-box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.4);
-    box-shadow: 0px 6px 6px 2px rgba(0,0,0,0.4);
-    margin-bottom:0px;
+	-webkit-box-shadow: 0 6px 6px 2px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 6px 6px 2px rgba(0,0,0,0.4);
+    box-shadow: 0 6px 6px 2px rgba(0,0,0,0.4);
+    margin-bottom: 0;
 }
 
 .portfolio-img {
@@ -114,5 +110,3 @@ hr {
 		padding-bottom: 60px;
 	}
 } 
-
-
