@@ -15,7 +15,7 @@ hr {
 }
 
 
-/*************************** TO DO: Implement Navbar ********************
+/* TO DO: Implement Navbar 
 
 
 .navbar-header {
@@ -36,7 +36,7 @@ hr {
     border-radius: 0px;
 }
 
-/***************************** Header Area *****************************/
+/* Header Area */
 
 .logo {
 	padding-top: 10px;
@@ -59,7 +59,7 @@ hr {
 	font-weight: 200;
 }
 
-/******************* Portfolio Area **********************************/
+/*  Portfolio Area */
 
 .portfolio-pages {
 	padding-bottom: 20px;
@@ -103,7 +103,7 @@ hr {
 	min-height: 300px;
 }
 
-/******************* Media queries to support small browsers *****************/
+/* Media queries to support smaller viewports */
 
 @media screen and (max-width: 991px) {
 	.portfolio-name {

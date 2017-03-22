@@ -1,6 +1,6 @@
 # Portfolio Project:  Intro to HTML & CSS / Responsive Design / Responsive images course
 
-## Steve Organ's portfolio uses the following:
+## This portfolio site uses the following:
 
 * HTML5 and CSS3 Design elements
 * Bootstrap Responsive Framework
