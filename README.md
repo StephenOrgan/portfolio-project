@@ -5,3 +5,4 @@
 * HTML5 and CSS3 Design elements
 * Bootstrap Responsive Framework
 * Google fonts
+* Image optimization utilizing grunt and imagemagick

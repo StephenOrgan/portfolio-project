@@ -10,9 +10,6 @@ hr {
 	padding-top: 0;
 }
 
-.img-responsive {
-	width: 100%;
-}
 
 
 /* TO DO: Implement Navbar 
@@ -43,7 +40,8 @@ hr {
 	max-width: 50%;
 }
 
-.tagline, .name {
+.tagline, 
+.name {
 	text-align:right;
 	color: #666;
 	text-transform: uppercase;
@@ -63,10 +61,15 @@ hr {
 
 .portfolio-pages {
 	padding-bottom: 20px;
+	max-width: 1350px;
 }
 
 .main-img {
 	padding-bottom: 30px;
+}
+
+.qr-building {
+	max-width: 100%;
 }
 
 .portfolio-text {
@@ -100,13 +103,28 @@ hr {
 }
 
 .portfolio-img {
-	min-height: 300px;
+	max-width: 100%;
 }
+
 
 /* Media queries to support smaller viewports */
 
 @media screen and (max-width: 991px) {
 	.portfolio-name {
 		padding-bottom: 60px;
+	}
+} 
+
+/* Media queries to support larger viewports */
+
+@media screen and (min-width: 1349px) {
+	.main-img {
+		margin-left: 30px;
+	}
+	.portfolio-img {
+		margin-left: 30px;
+	}
+	.portfolio-text {
+		margin-left: 30px;
 	}
 } 
