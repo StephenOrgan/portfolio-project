@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Meta -->
+	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Steve Organ - Front End Software Engineer">
@@ -56,79 +56,85 @@ Contains two columns to contain the logo and name/tagline.
 
 
 
-<header class="container-fluid">
-	<div class="row">
-		<div class="col-md-6">
-			<div class="logo">
-				<img class="logo" src="img/udacity_logo.svg" alt="Udacity Logo">
+<div class="container-fluid">
+	<header>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="logo">
+					<img class="logo" src="img/udacity_logo.svg" alt="Udacity Logo">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<h1 class="name">Steve Organ</h1>
+				<h2 class="tagline">Front End, Full Stack, Product Management, UX/UI Design Unicorn</h2>
 			</div>
 		</div>
-		<div class="col-md-6">
-			<h1 class="name">Steve Organ</h1>
-			<p class="tagline">Front End, Full Stack, Product Management, UX/UI Design Unicorn</p>
+	</header>
+		<div class="row">
+			<div class="col-md-12">
+				<hr>
+			</div>
 		</div>
-	</div>
-</header>
-<hr>
 
-<!-- Main Section Area -->
-<main class="main-img">
-	<div class="row">
-		<div class="col-md-12">
-			<picture>
-				<source media ="(min-width: 675px)" srcset="img/qr_code_building.jpg">
-				<source media ="(max-width: 675px)" srcset="img/qr_code_building-675.jpg">
-				<img src="img/qr_code_building.jpg"
-				alt="qr code building"
-				class="img-responsive qr-building">
-			</picture>
-		</div>
-     </div>
-</main>
+	<!-- Main Section Area -->
+	<main class="main-img">
+		<div class="row">
+			<div class="col-md-12">
+				<picture>
+					<source media ="(min-width: 676px)" srcset="img/qr_code_building.jpg">
+					<source media ="(max-width: 675px)" srcset="img/qr_code_building-675.jpg">
+					<img src="img/qr_code_building.jpg"
+					alt="qr code building"
+					class="img-responsive qr-building">
+				</picture>
+			</div>
+	     </div>
+	</main>
 	
 <!-- Portfolio Area -->
-<div class="portfolio">
-	<div class="row portfolio-header">
-		<div class="col-md-12">
-			<div class="portfolio-text">
-			Portfolio
+	<div class="portfolio">
+		<div class="row portfolio-header">
+			<div class="col-md-12">
+				<h2 class="portfolio-text">
+				Portfolio
+				</h2>
 			</div>
 		</div>
-	</div>
 
-	<div class="row portfolio-pages">
-		<article class="col-md-4">
-				<figure>
-					<a href="https://docs.google.com/presentation/d/10cDDrdgLUezS2fG3QXYjnyRRs3FDjjDEbd7vsRcsbcc" target="_blank">
-						<img src="img/ReferralProduct.png" class="img-responsive center-block portfolio-img" alt="Case Study Influitive's Referral product">
-					</a>
-					<a href="https://docs.google.com/presentation/d/10cDDrdgLUezS2fG3QXYjnyRRs3FDjjDEbd7vsRcsbcc" target="_blank">
-						<h2 class="portfolio-name"> Case Study: Referral Product </h2>
-					</a>
-				</figure>
-		</article>
+		<div class="row portfolio-pages">
+			<article class="col-md-4">
+					<p>
+						<a href="https://docs.google.com/presentation/d/10cDDrdgLUezS2fG3QXYjnyRRs3FDjjDEbd7vsRcsbcc" target="_blank">
+							<img src="img/ReferralProduct.png" class="img-responsive center-block portfolio-img" alt="Case Study Influitive's Referral product">
+						</a>
+						<a href="https://docs.google.com/presentation/d/10cDDrdgLUezS2fG3QXYjnyRRs3FDjjDEbd7vsRcsbcc" target="_blank">
+							<h2 class="portfolio-name"> Case Study: Referral Product </h2>
+						</a>
+					</p>
+			</article>
 
-		<article class="col-md-4">
-				<figure>
-					<a href="https://www.dropbox.com/s/eged9reepf2dv3e/Stephen_Organ_Resume_2017%20copy.pdf?dl=0" target="_blank">
-						<img src="img/cv.png" class="img-responsive center-block portfolio-img" alt="CV for Stephen Organ">
-					</a>
-					<a href="https://www.dropbox.com/s/eged9reepf2dv3e/Stephen_Organ_Resume_2017%20copy.pdf?dl=0" target="_blank">
-						<h2 class="portfolio-name"> CV </h2>
-					</a>
-				</figure>
-		</article>
+			<article class="col-md-4">
+					<p>
+						<a href="https://www.dropbox.com/s/eged9reepf2dv3e/Stephen_Organ_Resume_2017%20copy.pdf?dl=0" target="_blank">
+							<img src="img/cv.png" class="img-responsive center-block portfolio-img" alt="CV for Stephen Organ">
+						</a>
+						<a href="https://www.dropbox.com/s/eged9reepf2dv3e/Stephen_Organ_Resume_2017%20copy.pdf?dl=0" target="_blank">
+							<h2 class="portfolio-name"> CV </h2>
+						</a>
+					</p>
+			</article>
 
-		<article class="col-md-4">
-				<figure>
-					<a href="https://assets.adobe.com/link/b9a9df10-006d-4b17-5f2c-fcecfc592abb" target="_blank">
-						<img src="img/venue_maps.png" class="img-responsive center-block portfolio-img" alt="vector venue map of ddodger stadium">
-					</a>
-					<a href="https://assets.adobe.com/link/b9a9df10-006d-4b17-5f2c-fcecfc592abb" target="_blank">
-						<h2 class="portfolio-name"> Venue Maps </h2>
-					</a>
-				</figure>
-		</article>
+			<article class="col-md-4">
+					<p>
+						<a href="https://assets.adobe.com/link/b9a9df10-006d-4b17-5f2c-fcecfc592abb" target="_blank">
+							<img src="img/venue_maps.png" class="img-responsive center-block portfolio-img" alt="vector venue map of ddodger stadium">
+						</a>
+						<a href="https://assets.adobe.com/link/b9a9df10-006d-4b17-5f2c-fcecfc592abb" target="_blank">
+							<h2 class="portfolio-name"> Venue Maps </h2>
+						</a>
+					</p>
+			</article>
+		</div>
 	</div>
 </div>
 </body>
